@@ -1,0 +1,67 @@
+.about-hero{
+  background-image: url('/about-hero.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.gall{
+  color: #A60000;
+  font-size: 3rem;
+  padding-left: 3% ;
+  font-weight: bold;
+  font-family: Outfit,'Gadugi';
+}
+
+.place{
+  background-color: rgb(237, 237, 237);
+}
+
+.fix{
+  background-position-y: 2000%;
+}
+
+.w-mom{
+  font-family: "Montserrat";
+}
+.mn{
+  font-family: "Poppins";
+  font-weight: 700;
+}
+.manager h2{
+  font-family: "Montserrat";
+}
+
+
+.manager p{
+  font-family: "Poppins";
+}
+
+
+.play-pause,.mute-muted{
+  width: 50px;
+  height: 50px;
+  padding: 3px;
+  border-radius: 50%;
+}
+
+.progress-bar{
+  width: 95%;
+  border-radius: 5px;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 15px;
+}
+
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Dark transparent layer */
+  backdrop-filter: blur(5px); /* Smooth blur effect */
+}
+
+
+.about-hero-text{
+  z-index: 1;
+}

@@ -1,0 +1,30 @@
+.fixed {
+  position: fixed;
+}
+.bottom-4 {
+  bottom: 1rem;
+}
+.right-4 {
+  right: 1rem;
+}
+.bg-green-500 {
+  background-color: #25D366; 
+}
+.text-white {
+  color: white;
+}
+.rounded-full {
+  border-radius: 50%;
+}
+.p-4 {
+  padding: 1rem;
+}
+.shadow-lg {
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+}
+.hover\:bg-green-600:hover {
+  background-color: #128C7E; 
+}
+.transition {
+  transition: all 0.3s ease;
+}

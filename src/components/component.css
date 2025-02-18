@@ -1,0 +1,377 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300&family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Roboto:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+
+@keyframes slideInLeft {
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.nav{
+  z-index: 1000;
+}
+
+.nav-lists{
+  font-family: Poppins;
+}
+
+.anim{
+  animation: slideInLeft 2s ease-in-out;
+  font-family: Outfit ;
+}
+
+.osogbo{
+  /* background-color: rgba(0, 0, 0, 0.6); */
+}
+
+.menu{
+  /* background-image: url('../assets/Aptech-Menu3.jpg'); */
+  /* background-size: cover; */
+}
+
+.offer-head{
+  font-family:"Outfit";
+}
+
+.of{
+  color: #A60000;
+
+}
+
+.hr{
+  background-color: #A60000;
+}
+
+.offer-element{
+  animation: fadeIn 1s ease-in;
+}
+
+.offer-element:hover{
+  transform: scale(1.05);
+  transition: 1s;
+}
+
+.image-text{
+  font-family: Outfit;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.foots h1{
+  font-size: 30px;
+  font-weight: 600;
+  font-family: Outfit;
+}
+
+.foots p, .foots li{
+  font-weight: 400;
+  font-family: Poppins;
+}
+
+.footer hr{
+  height: 2px;
+  background-color: white;
+  color:white;
+}
+
+.footer img{
+  width: 200px;
+}
+
+.courses h1{
+  font-family: Outfit;
+  font-size: 40px;
+}
+
+.career-courses{
+  background-image: url('/tech.avif');
+  background-size:cover;
+  background-position: 2%;
+  padding: 30px;
+  font-family:Outfit;
+}
+
+.career-courses:hover{
+  transform: scale(1.025);
+  transition: 0.85s;
+}
+
+.career-courses ul {
+  margin-top: 15px;
+  list-style-type: circle;
+}
+
+.career-courses ul li{
+  font-size: 20px;
+  margin-top: 8px;
+  color: white;
+}
+
+.career-courses ul li:hover{
+  color:#FFB900;
+}
+
+.courses-note{
+  font-family: outfit;
+  margin-top: 20px;
+  font-weight: 400;
+}
+
+.bar{
+  /* width: 100px; */
+}
+
+.bar i{
+  font-size: 30px;
+  margin-top: 15px;
+  color: #FFB900;
+}
+
+
+.cl p{
+  line-height: 1.8;
+}
+
+.online{
+  /* font-family: Bungee spice ; */
+  font-weight: 480;
+}
+
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100vh;
+  width: 100%;
+  /* background: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.unis{
+  display: flex;
+}
+
+.course-main{
+  display: flex;
+}
+
+.offer-courses {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr)); 
+  gap: 30px;
+  max-width: 1200px; 
+  margin: 30px auto; 
+  padding: 0 15px; 
+}
+
+.offer-element {
+  max-width: 100%;
+  margin: auto; 
+}
+
+.hero-b{
+  width: 50%;
+}
+
+
+@media screen and (max-width: 1230px) {
+  .offer-courses {
+    grid-template-columns: repeat(2, minmax(0, 1fr)); 
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .offer-courses {
+    grid-template-columns: 1fr; 
+    justify-items: center;
+  }
+}
+
+
+@media screen and (max-width:800px) {
+  .menu p{
+    font-size: 105%;
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .menu h1{
+    font-size: 35px;
+    margin-top: 30%;
+  }
+
+  .menu h2{
+    font-size: 160%;
+  }
+
+  .menu button{
+    width: 40%;
+  }
+
+  .offer-courses{
+    justify-content: center;
+  }
+
+  .degree p{
+    font-size: 90%;
+  }
+
+  .course-main{
+    
+    width: 100%;
+  }
+
+  .hero-b{
+    width: 100%;
+  }
+
+  .unis{
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    /* margin: auto; */
+    /* grid-template-columns: 1fr 1fr; */
+    row-gap: 15px;
+  }
+
+  .course-img{
+    display: none;
+  }
+}
+
+/* Main container */
+.menu {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  /* background-image: url('../assets/Aptech-Menu3.jpg'); */
+  display: flex;
+  align-items: center;
+  padding: 25px;
+  /* justify-content: center; */
+  /* text-align: center; */
+  overflow: hidden;
+}
+
+/* Dark Overlay */
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Dark transparent layer */
+  backdrop-filter: blur(8px); /* Smooth blur effect */
+}
+
+/* Content Box */
+.content {
+  position: relative;
+  /* max-width: 700px; */
+  z-index: 2;
+  color: white;
+  /* text-align: center; */
+}
+
+/* Title Styling */
+.title {
+  font-size: 3.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+}
+
+/* Highlight (Different Color) */
+.highlight {
+  color: #FFB900;
+}
+
+/* Subtitle */
+.subtitle {
+  font-size: 2rem;
+  font-weight: 300;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
+  opacity: 0.8;
+}
+
+/* Text (Paragraph) */
+.text {
+  font-size: 1.2rem;
+  font-weight: 400;
+  opacity: 0.9;
+  line-height: 1.6;
+  /* max-width: 600px; */
+  margin-top: 20px;
+  margin-bottom: 20px;
+  /* margin: 0 auto 20px; */
+}
+
+/* Button */
+.btn {
+  display: inline-block;
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding: 14px 32px;
+  background: linear-gradient(90deg, #FFB900, #ff9900);
+  color: white;
+  border-radius: 50px; /* Modern rounded button */
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0px 5px 15px rgba(255, 185, 0, 0.4);
+}
+
+/* Hover Effect */
+.btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0px 8px 20px rgba(255, 185, 0, 0.6);
+}
+
+.menu h1{
+  text-shadow: 5px 10px 5px rgba(0, 0, 0, 0.5);
+  font-size: 50px;
+  font-family: "Inter",sans-serif;
+}
+
+.video-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0;
+  transition: opacity 1.5s ease-in-out;
+}
+
+.video-bg.active {
+  opacity: 1;
+}
+
+.qa{
+  background-image: url('/public/qa.jpg');
+  background-size: cover;
+
+}

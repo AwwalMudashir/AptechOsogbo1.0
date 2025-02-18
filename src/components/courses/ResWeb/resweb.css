@@ -1,0 +1,9 @@
+h2{
+  font-family: Outfit,sans-serif;
+}
+
+.res-hero{
+  background-image: url('/res-web.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}

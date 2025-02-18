@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300&family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Roboto:ital,wght@1,300&display=swap');
+
+*{
+  box-sizing: border-box;
+}
+
+.acns-home{
+  background-image: url('/public/an-land.jpg');
+  background-size: cover;
+  height: 100vh;
+}
+
+.acns-home h1{
+  font-family: Mulish,sans-serif;
+  font-weight: 600;
+  /* margin-top: -80px; */
+}
+
+.acns-course h1{
+  font-family: Montserrat,sans-serif;
+  font-size: 30px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.acns-course p{
+  line-height: 2;
+  font-family: Poppins,'Gadugi';
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+@media screen and (max-width:700px){
+  .acns-home h1{
+    margin-top: 120px;
+    font-size: 150%;
+  }
+
+  .acns-course p{
+    font-size: 16px;
+  }
+}
+
+.acns-outline-head{
+  border: none;
+  color: #A60000;
+  margin-top: 45px;
+  margin-bottom: 20px;
+  font-size: 40px;
+  font-family: Outfit,sans-serif;
+}
+
+
+.term{
+  margin: 20px;
+}
+
+.title{
+  font-weight: 500;
+  color: black;
+  font-size: 25px;
+  font-family:Montserrat ;
+}
+
+.bordered-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.bordered-table2{
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.bordered-table th,
+.bordered-table td {
+  border: 1px solid black;
+  padding: 8px;
+}
+
+.bordered-table2 th,
+.bordered-table2 td {
+  border: 1px solid black;
+  padding: 8px;
+}
+
+.bordered-table2 th{
+  font-family: Outfit;
+}
+.bordered-table th{
+  font-family: Outfit;
+}
+
+.bordered-table td{
+  font-family: 'gadugi';
+  background-color: white;
+}
+.bordered-table2 td{
+  font-family: 'gadugi';
+}
+
+.bordered-table th {
+  background-color: #f7b707;
+  text-align: left;
+}
+.bordered-table2 th {
+  background-color: #f7b707;
+  text-align: left;
+}
+
+/* .bordered-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.bordered-table tr:hover {
+  background-color: #ddd;
+} */
+.bordered-table2 tr:hover {
+  background-color: #ddd;
+}
+.bordered-table2 tr {
+  background-color: #ffffff;
+}
+
+.acns-flex{
+  display:flex;
+}
+
+@media screen and (max-width:800px) {
+  .acns-flex{
+    display:grid ;
+  }
+
+  .acns-flex img{
+    width: 100%;
+  }
+
+  .acns-flex p{
+    width: 100%;
+  }
+}

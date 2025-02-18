@@ -1,0 +1,36 @@
+@keyframes openclose {
+  0%, 5% {
+    top: 0rem;
+    width: 0;
+  }
+  15%, 30% {
+    width: 100%;
+  }
+  33%, 35% {
+    width: 0;
+  }
+  38% {
+    top: -3rem;
+  }
+  48%, 62% {
+    width: 100%;
+  }
+  66% {
+    width: 0;
+  }
+  71% {
+    top: -6rem;
+  }
+  86%, 95% {
+    width: 100%;
+  }
+  98%, 100% {
+    width: 0;
+  }
+}
+
+.animation-openclose {
+  animation: openclose 5s ease-in-out infinite;
+  line-height: 3rem;
+  position: relative;
+}

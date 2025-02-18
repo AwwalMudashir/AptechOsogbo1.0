@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300&family=Poppins:wght@200&display=swap');
+
+.question{
+  font-family: "Outfit";
+}
+
+.answer{
+  font-family: "Poppins";
+  font-weight: 500;
+}

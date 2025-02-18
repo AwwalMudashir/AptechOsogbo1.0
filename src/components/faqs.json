@@ -1,0 +1,32 @@
+[
+  {
+    "id":1,
+    "question": "Why should I Aptech ?",
+    "answer": "Joining Aptech provides hands-on experience, mentorship, and structured learning to help you build a strong foundation in technology-related fields."
+  },
+  {
+    "id":2,
+    "question": "Do I need prior experience to join?",
+    "answer": "No, we accept beginners and offer foundational courses to help you get started with no prior experience."
+  },
+  {
+    "id":3,
+    "question": "Is Aptech better than a university degree?",
+    "answer": "Aptech focus more on practical, job-ready skills, while universities provide a broader theoretical education. The best choice depends on your career goals."
+  },
+  {
+    "id":4,
+    "question": "Can I take my courses online?",
+    "answer": "Yes, we offer online courses, allowing you to learn at your own pace from anywhere in the world."
+  },
+  {
+    "id":5,
+    "question": "What tech skills are most in demand?",
+    "answer": "Skills like full-stack development, cloud computing, data science, artificial intelligence, and cybersecurity are highly sought after in the industry."
+  },
+  {
+    "id":6,
+    "question": "How can one JAPA with a certificate from Aptech ?",
+    "answer": "You can leave the country with either our ADSE or ACNS course with puts you to learn abroad with one of the universities affiliated with Aptech."
+  }
+]

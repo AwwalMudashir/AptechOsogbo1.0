@@ -1,0 +1,10 @@
+.cpism {
+  background-image: url('/Cpism.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 80%;
+}
+
+h1{
+  font-family: Outfit, sans-serif;
+}
