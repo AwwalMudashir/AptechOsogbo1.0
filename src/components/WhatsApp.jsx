@@ -12,6 +12,7 @@ const WhatsAppButton = () => {
       rel="noopener noreferrer"
       className="fixed bottom-4 right-4 bg-green-500 text-white rounded-full p-4 shadow-lg flex items-center justify-center hover:bg-green-600 transition duration-300"
       aria-label="Chat on WhatsApp"
+      style={{zIndex:"20"}}
     >
      <i class="fa-brands fa-whatsapp"></i>
     </a>

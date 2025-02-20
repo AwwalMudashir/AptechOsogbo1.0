@@ -15,10 +15,10 @@ const Faqs = () => {
       <h1 className='text-4xl md:text-6xl text-[#A60000] mb-12 text-center'>FAQ's</h1>
 
       <div className='flex flex-col md:flex-row justify-between gap-8'>
-        <div className="left w-[50%]">
+        <div className="left w-[100%] md:w-[50%]">
           {faqs}
         </div>
-        <div className="right w-[50%]">
+        <div className="right w-[100%] md:w-[50%]">
         <div className="flex flex-col qa items-center justify-end bg-gray-100 p-6 h-[90vh] rounded-2xl shadow-lg w-[100%] mx-auto">
       {/* Illustration */}
       {/* <motion.img 

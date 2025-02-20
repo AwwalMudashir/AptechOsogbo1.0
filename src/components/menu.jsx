@@ -31,7 +31,7 @@ const Menu = () => {
         <p className="text w-[50%]">
           "Empowering individuals to unlock their full potential through innovative technology solutions, because your success is our greatest achievement."
         </p>
-        <button className="btn" onClick={() => navigate('/enroll-now')}>
+        <button className="btn w-[100%] md:w-auto " onClick={() => navigate('/enroll-now')}>
           Enroll Now
         </button>
         <ClickSpark

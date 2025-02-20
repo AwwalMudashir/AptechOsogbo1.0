@@ -4,7 +4,7 @@ import './component.css'
 const Footer = () => {
 
   return (
-    <div className='bg-[#A60000] scroll-element' style={{bottom:"0"}}>
+    <div className='bg-[#A60000] scroll-element' style={{bottom:"0",zIndex:"10"}}>
     <div className='footer grid p-[35px]'>
     <div className='foots grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1  text-white gap-[40px]'>
       <div className=''>
